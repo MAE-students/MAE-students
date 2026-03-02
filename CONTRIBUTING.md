@@ -1,34 +1,21 @@
 # Contribution Guide 🛠️
 
-Thank you for helping the MAE community! To keep the repository clean and functional, please follow these guidelines.
+Thank you for helping the MAE community! To keep the repository clean and functional, our contribution process has been updated. We now ask contributors exclusively to report errors rather than submitting direct edits or Pull Requests.
 
-## 📝 Naming Convention
-Please rename your files using this format to make them searchable:
-`Year_Subject_Type_Topic_Author`
+## 🐞 How to Report an Error
 
-*Example:* `2024_DigitalAudio_Notes_DFT_JohnDoe.pdf`
+1. **Locate the Error:** Navigate to the specific file on GitHub and click on the exact line number where the error occurs.
+2. **Create the Report:** Open the line options menu (the three-dot icon next to the selected line) and click the option to reference it in a new issue.
 
-## 🍃 Overleaf & GitHub Integration
-Many repositories here contain LaTeX projects. You can sync them directly with your Overleaf account.
+## 📝 Issue Formatting Requirements
 
-### How to Sync a Repo to Overleaf:
-1. **Fork** the repository to your own GitHub account first.
-2. Go to **Overleaf** and click **New Project** -> **Import from GitHub**.
-3. Select your forked repository.
-4. Now you can edit in Overleaf. When you are done, use the **Menu > GitHub** option in Overleaf to "Push" changes back to your GitHub fork.
+Please keep your reports concise by formatting your issue description exactly like this:
 
-### How to Contribute back to the Community:
-1. Once you have "Pushed" from Overleaf to your GitHub fork, go to the original Organization repository.
-2. Click **New Pull Request**.
-3. Select your branch and submit. Once approved, your changes will be merged into the main collective version.
+* **Line 1:** The direct GitHub link to the specific line containing the error.
+* **Line 2:** A clear, brief description of the problem to be corrected.
+* **Line 3:** (Optional) Any additional information, context, or suggested solutions.
 
-## 🚀 General Technical Workflow
-1. **Fork** the repository.
-2. **Create a Branch** for your changes (e.g., `fix-spectral-formulas`).
-3. **Commit** your changes with a clear message.
-4. **Pull Request** to the `main` branch of the original repo.
+## 🤝 Rules of Conduct
 
-## 💻 Code & Scripts
-If you upload code (MATLAB, Python, Max/MSP):
-* Include comments to explain the logic.
-* Do not upload massive datasets (over 50MB); link them externally or use compressed files if necessary.
+* **Search First:** Always check the repository's existing open issues to see if the problem has already been reported before submitting a new one.
+* **Keep it Constructive:** Ensure your reports are appropriate, relevant to the project, and avoid spamming the issue tracker.
